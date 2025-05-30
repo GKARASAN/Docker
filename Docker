@@ -1,0 +1,16 @@
+Docker documentations
+
+Docker intro -- https://docs.docker.com/get-started/introduction/
+
+1. Docker installation -- https://docs.docker.com/get-started/get-docker/
+
+steps :
+
+ # sudo apt-get update   -- update the OS package
+ # sudo apt-get install apt-transport-https ca-certificates curl software-properties-common    --- Install Docker's dependencies
+ # curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -       --- Add Docker’s official GPG key
+ # sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"     --- Add the Docker repository
+ # apt-get install docker-ce    --- install Docker
+ # docker --version    --- verify docker
+
+
